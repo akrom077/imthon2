@@ -1,0 +1,574 @@
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero .hero-text {
+  margin-top: 190px;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+.hero .hero-text .hero-main-title {
+  margin-bottom: 40px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 125%;
+  color: #363738;
+}
+.hero .hero-text .hero-paragraph {
+  margin-bottom: 40px;
+  width: 525px;
+  height: 66px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.hero .hero-text .hero-link {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363738;
+}
+.hero .hero-text .hero-line {
+  width: 104px;
+  height: 0;
+  border: 3px solid #FFCE50;
+}
+.hero .hero-images {
+  margin-left: 80px;
+  z-index: -1;
+}
+.hero .hero-images .hero-images-box {
+  width: 599px;
+  height: 787px;
+  background: #0B7572;
+  position: relative;
+  z-index: 2;
+}
+.hero .hero-images .hero-truck-img {
+  position: absolute;
+  top: 109px;
+  right: 100px;
+}
+
+.main-search-section {
+  width: 80%;
+  height: 341px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  display: grid;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(3, 328px);
+  grid-template-rows: repeat(1, 244px);
+  margin-top: -110px;
+  z-index: 3;
+}
+.main-search-section .search-section-part1 {
+  padding-left: 80px;
+}
+.main-search-section .search-section-part1 .search-section-p1 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.main-search-section .search-section-part1 .search-section-p2 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+
+.statistics-main-titles {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.statistics-main-titles .working-type {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-top: 100px;
+}
+.statistics-main-titles .working-type-answer {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  width: 667px;
+}
+
+.checkbox-information {
+  display: flex;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.checkbox-information .checkbox-first {
+  width: 687px;
+  height: 176px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 40px 0 48px 40px;
+  margin-bottom: 16px;
+}
+.checkbox-information .checkbox-second {
+  width: 687px;
+  height: 176px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 40px 0 48px 40px;
+  margin-bottom: 16px;
+}
+.checkbox-information .checkbox-three {
+  width: 687px;
+  height: 176px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 40px 0 48px 40px;
+}
+.checkbox-information .checkbox-label {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+.checkbox-information .checkbox-paragraph {
+  width: 466px;
+  height: 42px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  padding-left: 20px;
+}
+.checkbox-information .statistics {
+  margin-left: 140px;
+}
+.checkbox-information .statistics .statistics-text1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-bottom: 8px;
+}
+.checkbox-information .statistics .statistics-span1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  color: #363738;
+}
+.checkbox-information .statistics .statistics-span2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #363738;
+}
+.checkbox-information .statistics .statistics-line {
+  margin-top: 39px;
+  height: 0;
+  width: 281px;
+  border: 3px solid #FFCE50;
+}
+
+.truck-middle {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.money-information {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(2, 500px);
+  grid-template-rows: repeat(2, 200px);
+  margin-top: 72px;
+}
+.money-information .lock-lorem1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin-bottom: 16px;
+}
+.money-information .lock-lorem2 {
+  width: 291px;
+  height: 41px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.money-information .money-lock {
+  display: flex;
+}
+.money-information .money-images {
+  width: 80px;
+  height: 80px;
+  margin-right: 40px;
+}
+
+.work-prices {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 393px);
+  grid-template-rows: repeat(1, 439px);
+}
+.work-prices .work-prices-bunker {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.work-prices .work-price-text1 {
+  margin: 24px 34px 16px 24px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+.work-prices .work-price-text2 {
+  margin: 24px 34px 16px 24px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.work-prices .work-price-text3 {
+  margin: 24px 34px 0px 24px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+}
+.work-prices .work-price-line {
+  margin: 6px 34px 32px 24px;
+  border: 3px solid #FFCE50;
+  width: 86px;
+}
+
+.recomendend-table-product {
+  width: 80%;
+  margin: 244px auto 120px auto;
+}
+
+.stages-title {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.stages-table-box-list {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(1);
+  grid-template-rows: repeat(3, 275px);
+}
+.stages-table-box-list .stages-box1 {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.stages-table-box-list .stages-box1 .stages-box1-image {
+  padding: 32px 56px 32px 96px;
+}
+.stages-table-box-list .stages-box1 .stages-box1-text {
+  padding-top: 32px;
+}
+.stages-table-box-list .stages-box1 .box1-text-paragraph1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+  color: #363738;
+  padding-bottom: 24px;
+}
+.stages-table-box-list .stages-box1 .box1-text-line {
+  width: 86px;
+  border: 3px solid #FFCE50;
+  margin-bottom: 24px;
+}
+.stages-table-box-list .stages-box1 .box1-text-paragraph2 {
+  width: 568px;
+  height: 88px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-bottom: 57px;
+}
+
+.partner-sponsirship-list {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 280px);
+  text-align: center;
+}
+.partner-sponsirship-list .sponsirship-name {
+  margin-top: 32px;
+  margin-bottom: 14px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  color: #363738;
+}
+.partner-sponsirship-list .sponsirship-wrong {
+  margin-top: 60px;
+}
+.partner-sponsirship-list .sponsirship-info {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #6B6B6C;
+}
+
+.company-staffs-info {
+  width: 80%;
+  margin: 72px auto 100px auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(3, 300px);
+}
+.company-staffs-info .staff-info-anton {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.company-staffs-info .staffs-green-color {
+  background-color: #0B7572;
+  width: 51px;
+  height: 275px;
+  margin-right: 32px;
+}
+.company-staffs-info .staffs-full-info {
+  margin-left: 40px;
+}
+.company-staffs-info .full-name {
+  margin-bottom: 12px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+}
+.company-staffs-info .extra-info-staff {
+  margin-bottom: 16px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+.company-staffs-info .staffs-line {
+  width: 86px;
+  border: 3px solid #FFCE50;
+  margin-bottom: 32px;
+}
+.company-staffs-info .staffs-social-network {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-table {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 72px;
+}
+.media-table .social-media-table {
+  margin-bottom: 44px;
+  margin-right: 10px;
+}
+.media-table .media-table-text1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-bottom: 8px;
+  margin-left: 36px;
+}
+.media-table .media-table-text2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #363738;
+  margin-left: 60px;
+}
+.media-table table {
+  width: 80%;
+  height: 403px;
+  background: #F9F9FB;
+  border-radius: 5px;
+}
+.media-table th {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #6B6B6C;
+  padding-right: 190px;
+  border: 1px solid #E9EAF2;
+}
+.media-table td {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #363738;
+  border: 1px solid #E9EAF2;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero .hero-text {
+    margin-top: 190px;
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+  .hero .hero-text .hero-main-title {
+    margin-bottom: 40px;
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 125%;
+    color: #363738;
+  }
+  .hero .hero-text .hero-paragraph {
+    margin-bottom: 40px;
+    width: 525px;
+    height: 66px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6B6B6C;
+  }
+  .hero .hero-text .hero-link {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #363738;
+  }
+  .hero .hero-text .hero-line {
+    width: 104px;
+    height: 0;
+    border: 3px solid #FFCE50;
+  }
+  .hero .hero-images {
+    margin-left: 80px;
+    z-index: -1;
+  }
+  .hero .hero-images .hero-images-box {
+    width: 599px;
+    height: 787px;
+    background: #0B7572;
+    position: relative;
+    z-index: 2;
+  }
+  .hero .hero-images .hero-truck-img {
+    position: absolute;
+    top: 109px;
+    right: 100px;
+  }
+}/*# sourceMappingURL=main.css.map */
